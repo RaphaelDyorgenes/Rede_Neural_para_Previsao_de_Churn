@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+.ruff_cache/
+.pytest_cache/
+*.pyc
+*.pyo
+*.egg-info
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+
+# MLflow
+mlruns/
+
+# MLflow database (gerado localmente)
+mlflow.db
